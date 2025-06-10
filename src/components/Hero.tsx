@@ -2,8 +2,22 @@
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
+  const handleRequestService = () => {
+    // Replace with your WhatsApp number (format: country code + number without + or spaces)
+    const whatsappNumber = "27123456789"; // Replace with your actual WhatsApp number
+    const message = "Hi! I would like to request gardening services.";
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
+  const handleCallNow = () => {
+    // Replace with your actual phone number
+    const phoneNumber = "tel:+27112345678"; // Replace with your actual phone number
+    window.location.href = phoneNumber;
+  };
+
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-garden-50 to-white overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-garden-50 to-white overflow-hidden pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-64 h-64 bg-garden-300 rounded-full blur-3xl"></div>
@@ -30,6 +44,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-garden-500 hover:bg-garden-600 text-white px-8 py-4 text-lg hover-scale"
+              onClick={handleRequestService}
             >
               Request Service
             </Button>
@@ -37,6 +52,7 @@ const Hero = () => {
               variant="outline" 
               size="lg" 
               className="border-garden-500 text-garden-600 hover:bg-garden-50 px-8 py-4 text-lg hover-scale"
+              onClick={handleCallNow}
             >
               Call Now: 011 234 5678
             </Button>
