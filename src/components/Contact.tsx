@@ -149,12 +149,17 @@ const Contact = () => {
               </div>
 
               {/* Map */}
-              <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-                <div className="text-center text-gray-600">
-                  <span className="text-4xl mb-2 block">🗺️</span>
-                  <p>Interactive Map</p>
-                  <p className="text-sm">Soshanguve, Pretoria</p>
-                </div>
+              <div className="rounded-lg overflow-hidden">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1512.3621671671947!2d28.1052124!3d-25.4872905!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfc8ac091fea81%3A0xe0199bd2760c4be6!2s228%20Block%20BB%2C%20Soshanguve%20-%20BB%2C%20Soshanguve%2C%200152%2C%20South%20Africa!5e1!3m2!1sen!2szw!4v1749580289518!5m2!1sen!2szw" 
+                  width="100%" 
+                  height="256"
+                  style={{border: 0}}
+                  allowFullScreen
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full"
+                />
               </div>
             </div>
           </div>
