@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 const Hero = () => {
   const handleRequestService = () => {
     // Replace with your WhatsApp number (format: country code + number without + or spaces)
-    const whatsappNumber = "27123456789"; // Replace with your actual WhatsApp number
+    const whatsappNumber = "27723581791"; // Replace with your actual WhatsApp number
     const message = "Hi! I would like to request gardening services.";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -12,7 +12,7 @@ const Hero = () => {
 
   const handleCallNow = () => {
     // Replace with your actual phone number
-    const phoneNumber = "tel:+27112345678"; // Replace with your actual phone number
+    const phoneNumber = "tel:+27723581791"; // Replace with your actual phone number
     window.location.href = phoneNumber;
   };
 
@@ -54,13 +54,13 @@ const Hero = () => {
               className="border-garden-500 text-garden-600 hover:bg-garden-50 px-8 py-4 text-lg hover-scale"
               onClick={handleCallNow}
             >
-              Call Now: 011 234 5678
+              Call Now: +27 72 358 1791
             </Button>
           </div>
           
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-garden-600">5+</div>
+              <div className="text-3xl font-bold text-garden-600">10+</div>
               <div className="text-sm text-gray-600">Years Experience</div>
             </div>
             <div className="text-center">

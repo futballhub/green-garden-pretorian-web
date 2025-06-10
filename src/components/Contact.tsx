@@ -29,7 +29,7 @@ const Contact = () => {
                       <input 
                         type="text" 
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-garden-500 focus:border-transparent transition-colors"
-                        placeholder="John"
+                        placeholder="firstName"
                       />
                     </div>
                     <div>
@@ -37,7 +37,7 @@ const Contact = () => {
                       <input 
                         type="text" 
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-garden-500 focus:border-transparent transition-colors"
-                        placeholder="Doe"
+                        placeholder="lastName"
                       />
                     </div>
                   </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                     <input 
                       type="email" 
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-garden-500 focus:border-transparent transition-colors"
-                      placeholder="john@example.com"
+                      placeholder="enter email here "
                     />
                   </div>
                   
@@ -56,7 +56,7 @@ const Contact = () => {
                     <input 
                       type="tel" 
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-garden-500 focus:border-transparent transition-colors"
-                      placeholder="011 234 5678"
+                      placeholder="Phone Number "
                     />
                   </div>
                   
@@ -116,7 +116,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                      <p className="text-gray-600">011 234 5678</p>
+                      <p className="text-gray-600">+27 72 358 1791</p>
                       <p className="text-gray-600">073 456 7890</p>
                     </div>
                   </div>
@@ -139,8 +139,8 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Business Hours</h4>
                       <p className="text-gray-600">
-                        Monday - Friday: 7:00 AM - 5:00 PM<br />
-                        Saturday: 8:00 AM - 2:00 PM<br />
+                        Monday - Friday: 7:00 AM - 6:00 PM<br />
+                        Saturday: 8:00 AM - 4:00 PM<br />
                         Sunday: Emergency services only
                       </p>
                     </div>
