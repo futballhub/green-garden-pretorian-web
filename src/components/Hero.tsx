@@ -35,7 +35,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Transform your outdoor space with CHOCKS Projects & Constructions. 
+            Transform your outdoor space with MLAMBO Projects & Constructions. 
             We provide affordable, reliable gardening services including tree cutting, 
             lawn maintenance, and complete garden care solutions.
           </p>

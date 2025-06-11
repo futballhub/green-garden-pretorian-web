@@ -6,10 +6,10 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              About <span className="text-garden-600">CHOCKS Projects</span>
+              About <span className="text-garden-600">MLAMBO Projects</span>
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              CHOCKS Projects & Constructions (Pty) Ltd is your trusted partner for 
+              MLAMBO Projects & Constructions (Pvt) Ltd is your trusted partner for 
               professional gardening services in Pretoria and surrounding areas. Based in 
               Soshanguve, we have been transforming outdoor spaces with dedication and expertise.
             </p>
